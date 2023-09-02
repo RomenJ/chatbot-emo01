@@ -14,6 +14,8 @@ def chatbot_emocional():
             print("Chatbot: ¡Eso suena genial! ¿Qué te hace sentir feliz ",nombre,"?")  
         elif "enojado"  in respuesta or "cabreado" in respuesta or "mosqueado" in respuesta:
             print("Chatbot: Entiendo que puedas estar enojado. ¿Qué pasó", nombre,"?")
+        elif "sauron"  in respuesta or "legolas" in respuesta or "arwen" in respuesta:
+            print("Chatbot: No me vengas con tus frikadas ", nombre,". Ese no es el tema y lo sabes")      
         elif "miedo" in respuesta or "ansiedad" in respuesta or "panico" in respuesta:
             print("Chatbot: El miedo y la ansiedad son emocionales naturales. Vamos a revisar tu estado de ansiedad. Puedes realizar el siguiente test. http://espectroautista.info/GAD7-es.html. Si tus puntuaciones son altas no dudes en consultarme. ", nombre,".")
         elif "adiós" in respuesta or "salir" in respuesta:
